@@ -1,0 +1,6 @@
+.data{
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),url("image01.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  }

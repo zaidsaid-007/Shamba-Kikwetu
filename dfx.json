@@ -1,0 +1,29 @@
+{
+  "canisters": {
+    "ShambaKikwetu_backend": {
+      "main": "src/ShambaKikwetu_backend/main.mo",
+      "type": "motoko"
+    },
+    "ShambaKikwetu_frontend": {
+      "dependencies": [
+        "ShambaKikwetu_backend"
+      ],
+      "frontend": {
+        "entrypoint": "src/ShambaKikwetu_frontend/src/index.html"
+      },
+      "source": [
+        "src/ShambaKikwetu_frontend/assets",
+        "dist/ShambaKikwetu_frontend/"
+      ],
+      "type": "assets"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
